@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, send_file
-from extractors.remoteok import get_jobs
+from remoteok import get_jobs
 from file import save_to_file
 
 app = Flask("jobscrapper")
